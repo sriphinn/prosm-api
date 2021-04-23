@@ -24,7 +24,7 @@ usersRouter
 
     UsersService.hasUserWithUserName(
       req.app.get('db'),
-      user_name
+      email
     )
       .then(hasUserWithUserName => {
         if (hasUserWithUserName)
