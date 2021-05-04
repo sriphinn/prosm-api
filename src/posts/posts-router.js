@@ -52,7 +52,7 @@ postsRouter
           logger.error(`Post with id ${id} not found.`);
           return res
             .status(404)
-            .json({ message: "Post doesn't exist" });
+            .json({ error: "Post doesn't exist" });
         }
         res.post = post
         next()

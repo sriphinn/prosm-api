@@ -19,6 +19,7 @@ const PostsService = {
       title: xss(post.title),
       modified: new Date(post.modified),
       content: xss(post.content),
+      user_id: post.user_id
     }
   },
 
