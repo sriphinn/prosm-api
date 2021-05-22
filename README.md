@@ -37,7 +37,7 @@ Deployed via Heroku
 - /api/posts
 - - GET - gets all posts by user id
 - - POST - creates a new post
-```
+
 - /api/posts/:id
 - - GET - gets post by id
 - - DELETE - delete post by id
