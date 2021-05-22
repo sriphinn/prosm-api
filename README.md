@@ -36,12 +36,13 @@ Deployed via Heroku
 ```
 - /api/posts
 - - GET - gets all posts by user id
-- - POST - creates a new workout
+- - POST - creates a new post
 ```
 - /api/posts/:id
 - - GET - gets post by id
 - - DELETE - delete post by id
 - - PATCH - edit post by id
+```
 
 ### Auth Router
 
